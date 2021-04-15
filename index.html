@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- google fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- login div -->
+    <center>
+        <div class="login" id="login_div">
+            <h1 class="lheading">Log In</h1><br>
+            <input type="email" placeholder="User mail" id="lmail"><br>
+            <input type="password" placeholder="Enter your password" id="lpassword"><br><br>
+            <button id="lbtn" onclick="login()">Log In</button>
+        </div>
+    </center>
+    <div class="f-section" id="user_div">
+        <center>
+            <h1 class="f-heading">Project</h1>
+        </center><br><br>
+        <input type="text" id="pname" placeholder="Enter Project Name" required><br>
+        <input type="url" id="plink" placeholder="Project link" required><br>
+        <label>Project Image</label><br>
+
+
+        <!-- <input id="namebox" type="text"><br><br> -->
+        <img id="myimg"><label id="UpProgress"></label><br>
+        
+        <button id="select">Select Image</button><br><br>
+        <center><button class="sbtn" id="fileButton" onclick="store()">Submit</button></center>
+<br><br><br>
+        <center><button id="lbtn" onclick="LogOut()">LogOut</button></center>
+
+        
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

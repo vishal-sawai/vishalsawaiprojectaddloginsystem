@@ -1,0 +1,62 @@
+@media only screen and (max-width:1024px) {
+    /* project */
+    .f-section {
+        margin: auto;
+        margin-top: 550px;
+        width: 700px;
+    }
+    .f-heading {
+        font-size: 90px;
+    }
+    form {
+        margin: auto;
+    }
+    #pname, #plink, #pimg {
+        width: 675px;
+        height: 50px;
+        margin-bottom: 33px;
+        padding: 4px 10px;
+        font-size: 38px;
+    }
+    label {
+        font-size: 40px;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    .sbtn {
+        font-size: 40px;
+        width: 380px;
+        padding: 5px;
+        border-radius: 18px;
+    }
+    #select {
+        font-size: 40px;
+        width: 380px;
+        padding: 5px;
+        border-radius: 18px;
+        margin-bottom: 10px;
+    }
+    /* login */
+    .login {
+        padding: 50px;
+        margin: 60% 10%;
+    }
+    .lheading {
+        color: white;
+        font-size: 150px;
+    }
+    #lmail, #lpassword {
+        width: 600px;
+        height: 40px;
+        margin-bottom: 25px;
+        padding: 10px 20px;
+        font-size: 35px;
+        border-radius: 10px;
+    }
+    #lbtn {
+        padding: 10px;
+        font-size: 50px;
+        width: 600px;
+        border-radius: 30px;
+    }
+}
